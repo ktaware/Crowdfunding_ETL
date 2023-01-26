@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-Instructions
+#Instructions
 The instructions for this mini project are divided into the following subsections:
 
 Create the Category and Subcategory DataFrames
@@ -113,7 +113,7 @@ Import each CSV file into its corresponding SQL table.
 
 Verify that each table has the correct data by running a SELECT statement for each.
 
-Hints
+#Hints
 To split each "category & sub-category" column value into "category" and "subcategory" column values, use df[["new_column1","new_column2"]] = df["column"].str.split(). Make sure to pass the correct parameters to the split() function.
 
 To get the unique category and subcategory values from the "category" and "subcategory" columns, create a NumPy array where the array length equals the number of unique categories and unique subcategories from each column. For information about how to do so, see numpy.arange Links to an external site.in the NumPy documentation.
@@ -128,5 +128,5 @@ To convert the "launch_date" and "end_date" UTC times to the datetime format, se
 
 For more information about how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign DataFrame, see the pandas.DataFrame.merge Links to an external site.in the Pandas documentation.
 
-Support and Resources
+#Support and Resources
 Your instructional team will provide support during classes and office hours. You will also have access to learning assistants and tutors to help you with topics as needed. Make sure to take advantage of these resources as you collaborate with your partner on this project.

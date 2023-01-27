@@ -1,5 +1,4 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+﻿
 
 
 CREATE TABLE "campaign" (
@@ -57,3 +56,10 @@ REFERENCES "category" ("category_id");
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
 
+select * from "campaign";
+
+select * from "category";
+
+select * from "subcategory";
+
+select * from "contacts";
